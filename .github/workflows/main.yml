@@ -19,7 +19,7 @@ jobs:
           #  - read:org  (for organization related metrics)
           #  - read:user (for user related data)
           #  - repo      (optional, if you want to include private repositories)
-          token: ${{ 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 }}
+          token: ${{ secrets.secrets }}
 
           # Options
           user: pneumix
